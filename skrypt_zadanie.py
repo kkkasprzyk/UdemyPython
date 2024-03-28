@@ -1,4 +1,6 @@
 import string
+from io import open
+
 data_to_chose = ['load data', 'export data', 'analyze & predict']
 choice = 'x'
 
@@ -26,7 +28,6 @@ while choice:
 
         else:
             print(" KONIEC PROGRAMU :) ")
-
 
 
 
